@@ -1,5 +1,5 @@
 {
-  "name": "cypress-demo1",
+  "name": "e2e",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/pradeepmisra81/cypress-demo1.git",
