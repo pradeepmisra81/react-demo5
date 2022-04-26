@@ -4,16 +4,16 @@ import Login from './components/Login/Login';
 import Home from './components/Home/Home';
 import MainHeader from './components/MainHeader/MainHeader';
 
-function App() {
+function App(props) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     const storedUserLoggedInInformation = localStorage.getItem('isLoggedIn');
-
+    console.log('Test useEffect call 1 in App');
     if (storedUserLoggedInInformation === '1') {
       setIsLoggedIn(true);
     }
-  }, []);
+  }, [props.visible]);
 
   const loginHandler = (email, password) => {
     // We should of course check email and password
