@@ -1,13 +1,13 @@
 module.exports = (num) => {
   if (num % 3 === 0 && num % 5 === 0) {
-    return 'fizzbuzz'
+    return 'mul3mul5'
   }
 
   if (num % 3 === 0) {
-    return 'fizz'
+    return 'mul3'
   }
 
   if (num % 5 === 0) {
-    return 'buzz'
+    return 'mul5'
   }
 }

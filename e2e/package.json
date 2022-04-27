@@ -2,7 +2,7 @@
   "name": "e2e",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/pradeepmisra81/cypress-demo1.git",
+  "repository": "https://github.com/pradeepmisra81/react-demo5.git",
   "author": "pradeep",
   "license": "MIT",
   "devDependencies": {
