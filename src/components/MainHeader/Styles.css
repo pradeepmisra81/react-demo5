@@ -1,4 +1,4 @@
-.main-header {
+.main-header .scss {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,23 +8,24 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #741188;
   padding: 0 2rem;
 }
 
-.main-header h1 {
+.main-header h3 {
   color: white;
   font-size: 16px;
 }
 
-.main-header h2 {
+.main-header h4 {
   color: white;
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
 }
+/*# sourceMappingURL=Styles.css.map */
